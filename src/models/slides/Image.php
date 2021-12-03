@@ -38,6 +38,6 @@ class Image extends \yii\base\Model
             $this->htmlOptions['class'] = self::IMAGE_CLASS;
         }
 
-        return \yii\bootstrap\Html::img($this->src, $this->htmlOptions);
+        return \yii\bootstrap4\Html::img($this->src, $this->htmlOptions);
     }
 }
