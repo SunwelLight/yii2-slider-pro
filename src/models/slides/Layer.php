@@ -40,6 +40,6 @@ class Layer extends \yii\base\Model
             $this->htmlOptions['class'] = self::LAYER_CLASS;
         }
 
-        return \yii\bootstrap\Html::tag($this->tag, $this->content, $this->htmlOptions);
+        return \yii\bootstrap4\Html::tag($this->tag, $this->content, $this->htmlOptions);
     }
 }
