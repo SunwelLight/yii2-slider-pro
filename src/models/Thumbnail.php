@@ -40,6 +40,6 @@ class Thumbnail extends \yii\base\Model
             $this->htmlOptions['class'] = self::THUMBNAIL_CLASS;
         }
 
-        return \yii\bootstrap\Html::tag($this->tag, $this->content, $this->htmlOptions);
+        return \yii\bootstrap4\Html::tag($this->tag, $this->content, $this->htmlOptions);
     }
 }
