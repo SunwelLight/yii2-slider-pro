@@ -40,6 +40,6 @@ class Caption extends \yii\base\Model
             $this->htmlOptions['class'] = self::CAPTION_CLASS;
         }
 
-        return \yii\bootstrap\Html::tag($this->tag, $this->content, $this->htmlOptions);
+        return \yii\bootstrap4\Html::tag($this->tag, $this->content, $this->htmlOptions);
     }
 }
